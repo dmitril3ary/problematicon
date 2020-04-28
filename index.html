@@ -55,14 +55,25 @@ color: #f1f1f1;
  
 }
   
-.border{
-   border-image: url('imageedit_1_6145531327.png'); 
-  border-image-slice: 20;
-  border-image-width: 20;
-  border-image-outset: 1;
-  border-image-repeat: stretch;
-  }
+
   
+  .frame {
+  border-image: url('imageedit_1_6145531327.png') 93 92 87 92 stretch stretch; 
+  border-color: #f4be52;
+  border-style: inset;
+  border-width: 60px;
+  display: block;
+  width: 40%;
+  height: auto;
+  background-color: #ffe;
+  margin: 0 auto;
+}
+  
+@media all and (max-width: 500px) {
+  img.frame { 
+    border-width: 0px;
+    width: 100%; }
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -184,8 +195,8 @@ li a:hover {
 <div class="main">
 <div class= "article">
 
-
-  <img src="mp4.mp4" class="border">
+<img src="mp4.mp4" alt="loading" class="frame">
+ 
 
   
   </div>
