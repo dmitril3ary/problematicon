@@ -16,6 +16,27 @@ body, html {
   height: 100%;
 }
   
+  .modal {
+  display: true;
+  z-index: 1; 
+   background-color: black;
+  border-style: solid;
+border-width: 36px 161px 53px 48px;
+-moz-border-image: url(tv_PNG39282.png) 36 161 53 48 stretch;
+-webkit-border-image: url(tv_PNG39282.png) 36 161 53 48 stretch;
+-o-border-image: url(tv_PNG39282.png) 36 161 53 48 stretch;
+border-image: url(tv_PNG39282.png) 36 161 53 48 fill stretch;
+padding: 75px;
+  margin: 20px;
+    width: 75%;
+    height:75%;
+      position: absolute;
+  left: 12.5%;
+  top: 12.5%;
+}
+
+  
+  
   .button {
   background-color: #ddd;
   border: none;
@@ -86,7 +107,7 @@ border-image: url(tv_PNG39282.png) 36 161 53 48 fill stretch;
 
 <div class="bg">
 
-<article>
+<div id="myModal" class="modal">
   <h1> Before The Show...</h1>
   
    <p>Please be aware that this site contains Adult Content which may or may not be tagged.
