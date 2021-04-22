@@ -24,7 +24,7 @@ body, html {
 }
   
   .modal {
-  display: true;
+  display: auto;
   z-index: 1; 
    background-color: black;
   border-style: solid;
@@ -33,8 +33,7 @@ border-width: 36px 161px 53px 48px;
 -webkit-border-image: url(tv_PNG39282.png) 36 161 53 48 stretch;
 -o-border-image: url(tv_PNG39282.png) 36 161 53 48 stretch;
 border-image: url(tv_PNG39282.png) 36 161 53 48 fill stretch;
-padding: 75px;
-  margin: 20px;
+  
     width: 75%;
     height:75%;
       position: absolute;
@@ -42,7 +41,13 @@ padding: 75px;
   top: 12.5%;
 }
 
-  
+  .modal-content {
+  background-color: black;
+ margin: 20px;
+ padding: 75px;
+  width: 75%;
+    height:75%
+}
   
   .close {
   background-color: #ddd;
