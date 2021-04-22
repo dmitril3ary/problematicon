@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
+
+
+
+<style>
+
+.VT323 {
+font-family: 'VT323';
+}
+
+body, html {
+  height: 100%;
+}
+  
+.bg {
+  background-image: url("TexturesCom_AbstractVarious0034_5_M.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  font-size: 40px;
+  font-family: 'VT323';
+  text-align: center;
+  color: #f1f1f1;
+  }
+  
+  p {
+    font-size: 20px;
+    color: #f1f1f1;
+    text-align: center;
+  }
+  
+  article {
+  background-color: black;
+  border-style: solid;
+border-width: 36px 161px 53px 48px;
+-moz-border-image: url(tv_PNG39282.png) 36 161 53 48 stretch;
+-webkit-border-image: url(tv_PNG39282.png) 36 161 53 48 stretch;
+-o-border-image: url(tv_PNG39282.png) 36 161 53 48 stretch;
+border-image: url(tv_PNG39282.png) 36 161 53 48 fill stretch;
+padding: 75px;
+  margin: 20px;
+    width: 75%;
+    height:75%;
+      position: absolute;
+  left: 12.5%;
+  top: 12.5%;
+   
+    }
+  
+p.tv {
+
+border-style: solid;
+border-width: 36px 161px 53px 48px;
+-moz-border-image: url(tv_PNG39282.png) 36 161 53 48 stretch;
+-webkit-border-image: url(tv_PNG39282.png) 36 161 53 48 stretch;
+-o-border-image: url(tv_PNG39282.png) 36 161 53 48 stretch;
+border-image: url(tv_PNG39282.png) 36 161 53 48 fill stretch;
+}
+  
+</style>    
+<body>
+
+<div class="bg">
+
+<article>
+
+  <h1> Before The Show...</h1>
+  
+   <p>Please be aware that this site contains Adult Content which may or may not be tagged.
+     By navigating past this page you are confirming that you are a legal adult and that veiwing such content is legal in your area. 
+     Thank You for you attention, if you choose to stay please enjoy tonights programming.</p>
+  <button class="button">Accept and Continue</button>
+  </div>
+
+
+  </div>
+<footer >
+
+ 
+</footer>
+
+</body>
+</html>
