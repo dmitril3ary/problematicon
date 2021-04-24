@@ -1,6 +1,14 @@
-<html>
-<style>
 
+
+
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+  
+  <style>
+    
 .bg {
   background-image: url("wowpatterns-export.png");
   height: 100%;
@@ -8,9 +16,27 @@
   background-repeat: repeat;
   
 }
-
-</style>
-
+    
+  </style>
 <body>
+
+<p>Click the button to swap the text of the DIV element:</p>
+
+<p><button onclick="myFunction()">Click Me</button></p>
+
+<div id="myDIV">Hello</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "Hello") {
+    x.innerHTML = "Swapped text!";
+  } else {
+    x.innerHTML = "Hello";
+  }
+}
+</script>
+
 </body>
 </html>
+
