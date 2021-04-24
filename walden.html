@@ -1,27 +1,128 @@
-<!DOCTYPE html>
 <html>
-<head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	<link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet'>
+  
+  <style>
+   h{
+		  font-size: 10rem;
+	    text-align: center;
+      height:30vh;
+      line-height: 30vh;
+	    color: #FFCE94;
+	    background: transparent;
+	   	font-family: 'Niconne', cursive;
+	    font-weight: 700;
+      text-shadow: 5px 5px 0px #5E2F80, 
+                  10px 10px 0px #5E2F80, 
+                  15px 15px 0px #B768A2, 
+                  20px 20px 0px #B768A2, 
+                  25px 25px 0px #D08EA0, 
+                  30px 30px 0px #D08EA0;
+	   padding: 20px;
+	   margin-left:20px;
+}
+	  article{
+	  margin-left:150px;}
+	  
+	  img {
+		  margin-left: 25px;
+		  padding:15px;
+		  object-fit: scale-down;
+		   width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 
-<p>Click the button to swap the text of the DIV element:</p>
+p{
+    text-align: center;
+    font-family: "Helvetica";
+    font-size:0.8rem;
+}
 
-<p><button onclick="myFunction()">Click Me</button></p>
+a{
+    color: #d52e3f;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    font-size: 1.2rem;
 
-<div id="myDIV">Hello</div>
+}
+	  .glow {
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.innerHTML === "Hello") {
-    x.innerHTML = "Swapped text!";
-  } else {
-    x.innerHTML = "Hello";
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #901890, 0 0 40px #901890, 0 0 50px #901890, 0 0 60px #901890, 0 0 70px #901890;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #B768A2, 0 0 40px #B768A2, 0 0 50px #B768A2, 0 0 60px #B768A2, 0 0 70px #B768A2, 0 0 80px #B768A2;
   }
 }
-</script>
+ 
+	  
+.bg {
+  background-image: url("TexturesCom_PaperStained0053_2_alphamasked_S.png");  
+  height:100%;
+}
+	  
+body{
+background:transparent;
+	  }
+
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 15px;
+	min-height:620;
+  background-color: #E79851;
+	border:solid;
+	border-color:black;
+}
+
+	  h1{font-family: 'Niconne', cursive;}
+
+
+  </style>
+<div class="bg">
+  <body>
+
+  
+<div class="header"><h>Voidrealms</h></div>
+    
+    <article>
+	  
+<div class="column">	  
+   <h1 class="glow" position="centered">The Setting</h1>
+    <p>Void Realms is an Eldritch Horror story set in the psychedelic retro-future. The veil between worlds wears thin in this worlds Las Vegas, 
+	    and Beings from other planes and the Mortals that serve and oppose them converge. Mortal Vessels of Outer gods lead cults that build 
+	    passageways between the planes for their masters. Humans use mind altering drugs to hunt down the gods roaming their city with ill intent. 
+	And for the gods, gambling mortal lives amonst each other is nothing but an idle pastime.</p></div>
+	
+	
+	 <div class="column">
+		 <h1 class="glow" position="centered">Characters</h1>
+		<a href="paris.jpg"> <img src="dgney.png" alt="Dagney"></a>
+		<a href="paris.jpg"> <img src="img_avatar.png" alt="Montrose"></a>
+			<a href="paris.jpg"> <img src="gods1.png" alt="THG"></a>
+	  </div>
+
+	  </article>
+  <div class="footer"><p>Heading Design by:
+    <a href="https://unblast.com/free-rose-text-effect-psd/">unblast.com</a>
+</p></div>
+ 
+  
+
 
 </body>
+   </div>
 </html>
 
