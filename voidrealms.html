@@ -49,7 +49,21 @@ a{
 body{
 background:transparent;
 	  }
-    
+    * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
   </style>
 <div class="bg">
   <body>
@@ -58,7 +72,21 @@ background:transparent;
   <header></header>
     
     <h>Voidrealms</h>
-
+	  
+	  
+	  
+<div class="row">
+  <div class="column">
+    <img src="img_snow.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_forest.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+	
+	
 <p>Click the button to swap the text of the DIV element:</p>
 
 <p><button onclick="myFunction()">Click Me</button></p>
