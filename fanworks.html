@@ -5,7 +5,6 @@
   
 	<script>
 
-	    
 $.fn.glitter = function() {
   $(this).each(function() {
     $(this).html($(this).text().split("").map(function(v, i) {
@@ -17,6 +16,7 @@ $.fn.glitter = function() {
 $(function() { 
   $('h1.glitter').glitter();
 });
+
 </script>
   <style>
 	  @import url(https://fonts.googleapis.com/css?family=Niconne);
@@ -30,9 +30,9 @@ $(function() {
 	    background-image: url("beef_PNG20.png");
 }
 	
-
 .glitter-gold {
 	color: #D81E1E;
+  
 color: gold;
 	background: -webkit-linear-gradient(transparent, transparent), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/gold_glitter.gif) repeat;
 	background: -o-linear-gradient(transparent, transparent) !important;
@@ -47,7 +47,6 @@ color: gold;
 	z-index: 999999;
 	-webkit-background-clip: text;
 }
-
 
 
 h1 {font-size: 3vw;
