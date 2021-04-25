@@ -4,6 +4,20 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 	<link href='https://fonts.googleapis.com/css?family=Rye' rel='stylesheet'>
   
+	<script>
+
+$.fn.glitter = function() {
+  $(this).each(function() {
+    $(this).html($(this).text().split("").map(function(v, i) {
+      return '<span class="glitter-' + (i % 2 == 0 ? 'gold' : 'gold') + '">' + v + '</span>';
+    }).join(""));
+  });
+};
+
+$(function() { 
+  $('h1.glitter').glitter();
+});
+</script>
   <style>
     body {
   margin: 0;
@@ -25,7 +39,6 @@ color: gold;
 	-webkit-text-fill-color: transparent !important;
 	margin: 0;
 	padding: 0;
-
 	font-weight: 900;
 	width: 100%;
 	text-align: center;
@@ -36,11 +49,11 @@ color: gold;
 
 
 
-h1 {font-size: 4vw;
+h1 {font-size: 3vw;
 
   text-align:center;
   max-height:100px;
-  margin-top:150px;
+  margin-top:50px;
   color:#fff;
 	font-family: 'rye';
 }
@@ -122,19 +135,6 @@ border-image: url(picture_frame_PNG209.png) 155 155 155 155 fill stretch
 </p></div>
 	  </body>
 	  
-	  <script>
-
-$.fn.glitter = function() {
-  $(this).each(function() {
-    $(this).html($(this).text().split("").map(function(v, i) {
-      return '<span class="glitter-' + (i % 2 == 0 ? 'gold' : 'gold') + '">' + v + '</span>';
-    }).join(""));
-  });
-};
-
-$(function() { 
-  $('h1.glitter').glitter();
-});
-</script>
+	
 	 
 </html>
