@@ -86,12 +86,7 @@ body {
 		   width: 200px;
   height: 200px;
 }
-	  @media screen and (max-width: 650px) {
-  .card {
-    width: 100%;
-    display: block;
-  }
-}
+
 	  
 .bg {
   background-image: url("TexturesCom_PaperStained0053_2_alphamasked_S (2).png");  
@@ -113,9 +108,27 @@ body {
 	border:solid;
 	border-color:black;
 }
+html {
+  box-sizing: border-box;
+}
 
-	  
-	  
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .container{
+    width: 100%;
+    display: block;
+  }
+}	  
 
   </style>
 <div class="bg">
@@ -134,19 +147,27 @@ body {
 	
 	
 	 <div class="column">
+	
 		 <h1>Characters</h1>
+		 <div class= "container">
 		<div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
-			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div>
-		 <div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
-			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div>
-		  <div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
-			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div>
-		  <div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
-			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div>
-		  <div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
-			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div>
-		  <div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
-			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div>
+			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div></div>
+		 
+		 <div class= "container">
+		<div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
+			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div></div>
+		 
+		 <div class= "container">
+		<div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
+			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div></div>
+		 
+		 <div class= "container">
+		<div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
+			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div></div>
+		 
+		 <div class= "container">
+		<div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
+			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div></div>
 		 
 		
 		
