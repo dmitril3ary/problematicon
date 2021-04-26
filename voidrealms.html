@@ -36,14 +36,54 @@
 	  article{
 	  margin-left:150px;}
 	  
+	  
+	  .card{
+	  border:1px solid black;
+	  line-height:150%;
+		  min height: 200px;
+		  overflow:auto;
+	  }
+	  
+	  
 	  img {
 		  margin-left: 25px;
 		  padding:15px;
 		  object-fit: scale-down;
 		   width: 200px;
   height: 200px;
-  border-radius: 50%;
 }
+	  
+	  .column {
+  float: left;
+  width: 45%;
+  padding: 15px;
+	height:620;
+	overflow: auto;
+  background-color: #94b8b8;
+	border:solid;
+	border-color:black;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .container{
+    width: 100%;
+    display: block;
+  }
+}	  
 
 p{
     text-align: center;
@@ -118,9 +158,28 @@ background:transparent;
 	
 	 <div class="column">
 		 <h1 class="glow" position="centered">Characters</h1>
-		<a href="paris.jpg"> <img src="dgney.png" alt="Dagney"></a>
-		<a href="paris.jpg"> <img src="img_avatar.png" alt="Montrose"></a>
-			<a href="paris.jpg"> <img src="gods1.png" alt="THG"></a>
+		
+		 <div class= "container">
+		<div class="card"><a href="dgney.png"> <img src="dgney.png" alt="Cheryl Noble"></a><p>test test test testest test
+			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div></div>
+		 
+		 <div class= "container">
+		<div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
+			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div></div>
+		 
+		 <div class= "container">
+		<div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
+			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div></div>
+		 
+		 <div class= "container">
+		<div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
+			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div></div>
+		 
+		 <div class= "container">
+		<div class="card"><a href="paris.jpg"> <img src="" alt="Cheryl Noble"></a><p>test test test testest test
+			test tesest test test tesest test test tesest test test tesest test test tesest test test tes</p></div></div>
+		 
+		
 	  </div>
 
 	  </article>
