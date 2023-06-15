@@ -1,4 +1,4 @@
-- name: Deploy to Neocities
+name: Deploy to Neocities
   uses: bcomnes/deploy-to-neocities@v1.1.13
   with:
     # Neocities API token for site to deploy to
