@@ -1,5 +1,5 @@
 name: Deploy to Neocities
-  uses: bcomnes/deploy-to-neocities@v1.1.13
+  uses: becomes/deploy-to-neocities@v1.1.13
   with:
     # Neocities API token for site to deploy to
     api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
